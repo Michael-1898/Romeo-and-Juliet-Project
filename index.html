@@ -28,7 +28,7 @@
     
     .choiceRight {background-color: white; text-align: center; width: 610px; height: 100px; font-family: Arial; font-size: 22pt; border-radius: 25px; position: absolute; left: 800px;}
   
-    #death1 {visibility: hidden; background-color: black; color: white; position: absolute; top: 707px; left: 120px; text-align: left; width: 1265px; font-family: Arial; font-size: 14pt; border: 17px solid black; border-radius: 25px;}
+    .death {visibility: hidden; background-color: black; color: white; position: absolute; top: 707px; left: 120px; text-align: left; width: 1265px; font-family: Arial; font-size: 14pt; border: 17px solid black; border-radius: 25px;}
   
     #story2 {visibility: hidden; background-color: white; position: absolute; top: 707px; left: 120px; text-align: left; width: 1265px; font-family: Arial; font-size: 14pt; border: 17px solid white; border-radius: 25px;}
   </style>
@@ -40,7 +40,7 @@
   <div class="choiceLeft"; id="choiceLeft1"; onmouseover="this.style.border = '4px solid blue'"; onmouseout="this.style.border = '2px solid blue'"; onclick="storyProgress1()"; style="position: absolute; top: 580px; border: 2px solid blue;"><br>Take Shane's route</div>
   <div class="choiceRight"; id="choiceRight1"; onmouseover="this.style.border = '4px solid red'"; onmouseout="this.style.border = '2px solid red'"; onclick="firstDeath()"; style="position: absolute; top: 580px; border: 2px solid red;"><br>Take Matt's route</div>
   
-  <div id="death1"; onmouseover="this.style.border = '17px solid white'"; onmouseout="this.style.border = '17px solid black'"; onclick="resetFrom1()";>The two take Matt's route. While their driving, the car in front of them swerves out of control causing Matt's car to flip, ending in Matt's death.<br>(click to reset loop)</div>
+  <div class="death"; id="death1"; onmouseover="this.style.border = '17px solid white'"; onmouseout="this.style.border = '17px solid black'"; onclick="resetFrom1()";>The two take Matt's route. While their driving, the car in front of them swerves out of control causing Matt's car to flip, ending in Matt's death.<br>(click to reset loop)</div>
 
   <div id="story2">You didn't die</div>
 </body>
