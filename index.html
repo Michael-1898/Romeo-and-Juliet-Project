@@ -26,6 +26,8 @@
   
     .choiceLeft {background-color: white; text-align: center; width: 610px; height: 100px; font-family: Arial; font-size: 22pt; border-radius: 25px; position: absolute; left: 120px;}
     
+    .choiceMid {}
+    
     .choiceRight {background-color: white; text-align: center; width: 610px; height: 100px; font-family: Arial; font-size: 22pt; border-radius: 25px; position: absolute; left: 800px;}
   
     .death {visibility: hidden; background-color: black; color: white; position: absolute; top: 707px; left: 120px; text-align: left; width: 1265px; font-family: Arial; font-size: 14pt; border: 17px solid black; border-radius: 25px;}
@@ -42,5 +44,10 @@
   
   <div class="death"; id="death1"; onmouseover="this.style.border = '17px solid grey'"; onmouseout="this.style.border = '17px solid black'"; onclick="resetFrom1()";>The two take Matt's route. While they're driving, the wheel of a 2009 Lexus driving right in front of them falls off. The loose tire bounces into Matt's car, crashing through the windshield and killing Matt.<br>(click to reset loop)</div>
 
-  <div id="story2">"No, we have to take Jefferson's out towards Maple road." Shane repeats. "There's gonna be an accident on 49, loose tire... Take the next left, skip Kings. Water main broke, flooded the street."<br>After turning left they stop at a red light and a man, wearing beaten up, dirty clothes, approaches their car. He knocks on the window and Matt rolls it down to listen to him.<br>"Excuse me s-sir you have any loose change?"<br>"Sorry man I don't got any change on me." Matt responds.<br>"Are you sure, what about your windows? You need your windows washed?"</div>
+  <div id="story2">"No, we have to take Jefferson's out towards Maple road." Shane repeats. "There's gonna be an accident on 49, loose tire... Take the next left, skip Kings. Water main broke, flooded the street."<br>After turning left they stop at a red light and a man, wearing beaten up, dirty clothes, approaches their car. He knocks on the window and Matt rolls it down to listen to him.<br>"Excuse me s-sir you have any loose change?"<br>"Sorry man I don't got any change on me." Matt responds.<br>"Are you sure, w-what about your windows? You need your windows washed?"</div>
+  <div class="question"; style="position: absolute; top: 800px;">Should they give the man change, insist they can't, or drive away?</div>
+  <div></div>
+  <div class="choiceLeft"; id="choiceLeft2"; style="position: absolute; top: 820px; border: 2px solid red; width: 420px;";>Give the man some change.</div>
+  <div class="choiceMid"; id="choiceMid1"; style="position: absolute; top: 820px; left: 600px; border: 2px solid blue; width: 450px;";>Don't give him change.</div>
+  <div class="choiceRight"; id="choiceRight2"; style="position: absolute; top: 820px; left: 1000px; border: 2px solid red; width: 400px;";>Drive past him.</div>
 </body>
